@@ -4,7 +4,7 @@
 
 <template>
     <h1>
-        This is Munniz Shop
+        This is a Munniz Shop
     </h1>
 </template>
 
