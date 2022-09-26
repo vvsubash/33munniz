@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { Ref } from 'vue';
+
 const productName: Ref<null | string> = ref(null);
 const addProduct = () => { };
 </script>
@@ -8,7 +10,7 @@ const addProduct = () => { };
     <fieldset>
 
       <label for="productImage">Upload Product Image</label>
-      <input type="file" name="productImage" id="productImage" @change="image">
+      <input type="file" name="productImage" id="productImage">
     </fieldset>
     <fieldset>
       <label for="productName">Product name </label>
